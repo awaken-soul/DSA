@@ -20,6 +20,7 @@ int main()
       create_node(data);
       count++;
     }
+   return 0;
 }
 
 struct Node* create_node(data)
