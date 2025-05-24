@@ -5,7 +5,7 @@
 struct Node {
   int data;
   struct Node* next;
-}
+};
 
 int main()
 {  int N, count;
