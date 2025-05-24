@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+struct Node* create_node(int);
+
 //declaration of struct variable
 struct Node {
   int data;
@@ -23,7 +25,7 @@ int main()
    return 0;
 }
 
-struct Node* create_node(data)
+struct Node* create_node(int data)
 {
   struct Node* node = (struct Node*) malloc(sizeof(struct Node));
   node->data = data;
