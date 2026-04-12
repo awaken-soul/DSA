@@ -32,3 +32,17 @@ The implementation exactly follows the requirements of the assignment.
 - Results exported to CSV files
 
 ## Repository Structure
+rotation-distance-trees/
+├── Source/
+│   └── main.py                 # Main Python implementation
+├── Results/
+│   ├── execution_times.csv     # Runtime benchmarking
+│   ├── memory_usage.csv        # Memory usage profiling
+│   ├── rotation_graph_n3.png   # Rotation graph for n=3
+│   ├── rotation_graph_n4.png
+│   ├── rotation_graph_n5.png
+│   ├── rotation_graph_n6.png
+│   └── rotation_graph_n7.png
+├── README.md                   # This file
+├── requirements.txt            # Python dependencies
+└── report.pdf                  # LaTeX report (optional but recommended)
