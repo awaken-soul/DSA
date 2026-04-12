@@ -2,7 +2,6 @@
 
 **PECST495 Advanced Data Structures**  
 **Research Activity 1**  
-**Submission Date:** 19 December 2025
 
 ## Overview
 
